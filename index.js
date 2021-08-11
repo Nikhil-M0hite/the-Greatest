@@ -4,7 +4,7 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 const chalk = require('chalk');
-console.log("Welcome to the fights of the century ..Quiz on Muhammad Ali");
+console.log(chalk.redBright("Welcome to the fights of the century ..Quiz on Muhammad Ali"));
 const quiz =[{
   question:(chalk.yellow)
   `what year was Ali born?
